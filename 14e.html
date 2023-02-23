@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgb(247, 239, 239);
+      }
+
+      .left-section {
+        display: flex;
+        align-items: center;
+      }
+
+      .name {
+        font-family: arial;
+        font-weight: bold;
+      }
+
+      .add-friend-button {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(24, 119, 242);
+        color: white;
+        border-radius: 3px;
+        border: none;
+        font-weight: bold;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+
+      .message-button {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(230, 230, 230);
+        color: black;
+        font-weight: bold;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="profile-picture" src="thumbnails/cat.jpg">
+        <div class="name">Oliver Cat</div>
+      </div>
+      <div>
+        <button class="add-friend-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+
+  </body>
+</html>

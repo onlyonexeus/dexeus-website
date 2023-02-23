@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .xeus {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .first-cat {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .second-cat {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .dog {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .left-section {
+        background-color: rgb(33, 33, 33);
+        left: 0;
+        top: 0;
+        position: fixed;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 20px;
+        height: 700px;
+      }
+
+      .right-section {
+        background-color: rgb(55, 55, 55);
+        position: fixed;
+        left: 70px;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 40px;
+        width: 200px;
+      }
+
+      .name {
+        color: white;
+        font-family: arial;
+        margin-bottom: 15px;
+      }
+
+      .channel {
+        margin-bottom: 15px;
+        color: gray;
+      }
+
+      .create-new {
+        color: gray;
+        
+      }
+
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    <div class="left-section">
+      <div>
+        <img class="xeus" src="thumbnails/xeus.jpg">
+      </div>
+      <div>
+        <img class="first-cat" src="thumbnails/cat.jpg">
+      </div>
+      <div>
+        <img class="second-cat" src="thumbnails/cat2.jpg">
+      </div>
+      <div>
+        <img class="dog" src="thumbnails/dog.jpg">
+      </div>
+    </div>
+     
+    <div class="right-section">
+      <div class="header">
+        <div class="name">INFO</div>
+        <div class="create-new">+</div>
+      </div>
+      <div class="channel"># new-videos</div>
+      <div class="channel"># updates</div>
+      <div class="channel"># faq</div>
+    </div>
+  </body>
+</html>

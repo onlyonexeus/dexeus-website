@@ -1,0 +1,201 @@
+.requestnow-button {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 120px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.15s;
+  
+  }
+  
+  .requestnow-button:hover {
+    opacity: 0.85;
+  }
+  
+  .requestnow-button:active {
+    opacity: 0.3;
+  }
+  
+  .addtocart-button {
+    background-color: yellow;
+    color: black;
+    height: 36px;
+    width: 150px;
+    border-radius: 18px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    
+  
+  }
+  
+  .addtocart-button:hover {
+    opacity: 0.7;
+  }
+  
+  .addtocart-button:active {
+    opacity:0.4
+  }
+  
+  
+  
+  .signup-button {
+  background-color: green;
+  color: white;
+  height: 36px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+  }
+  
+  .getstarted-button {
+    background-color: rgb(198, 13, 198);
+    color: white;
+    height: 36px;
+    width: 125px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+  
+  }
+  
+  .Download-button {
+    background-color: white;
+    color: gray;
+    height: 36px;
+    width: 125px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  
+  
+  }
+  
+  .applyoncompanywebsite-button {
+    background-color: rgb(0, 115, 255);
+    color: white;
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .save-button {
+  background-color: white;
+  color: rgb(0, 68, 255);
+  height: 42px;
+  width: 80px;
+  border-radius: 21px;
+  font-weight: bold;
+  border-color: rgb(0, 102, 255);
+  }    .requestnow-button {
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 120px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.15s;
+    
+    }
+    
+    .requestnow-button:hover {
+      opacity: 0.85;
+    }
+    
+    .requestnow-button:active {
+      opacity: 0.3;
+    }
+    
+    .addtocart-button {
+      background-color: yellow;
+      color: black;
+      height: 36px;
+      width: 150px;
+      border-radius: 18px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      margin-right: 10px;
+      
+    
+    }
+    
+    .addtocart-button:hover {
+      opacity: 0.7;
+    }
+    
+    .addtocart-button:active {
+      opacity:0.4
+    }
+    
+    
+    
+    .signup-button {
+    background-color: green;
+    color: white;
+    height: 36px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    }
+    
+    .getstarted-button {
+      background-color: rgb(198, 13, 198);
+      color: white;
+      height: 36px;
+      width: 125px;
+      border-radius: 2px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      margin-right: 10px;
+    
+    }
+    
+    .Download-button {
+      background-color: white;
+      color: gray;
+      height: 36px;
+      width: 125px;
+      border-radius: 2px;
+      font-weight: bold;
+      cursor: pointer;
+    
+    
+    }
+    
+    .applyoncompanywebsite-button {
+      background-color: rgb(0, 115, 255);
+      color: white;
+      height: 40px;
+      width: 220px;
+      border-radius: 20px;
+      border: none;
+      font-weight: bold;
+    }
+    
+    .save-button {
+    background-color: white;
+    color: rgb(0, 68, 255);
+    height: 42px;
+    width: 80px;
+    border-radius: 21px;
+    font-weight: bold;
+    border-color: rgb(0, 102, 255);
+    }
